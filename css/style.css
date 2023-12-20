@@ -3,11 +3,13 @@
 ====================*/
 
 .container {
+    background-color: #ffffff;
+    border: solid;
     width: 100%;
     max-width: 740px;
     padding: 20px;
     margin: 0 auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgb(255, 255, 255) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 /*====================*/
@@ -92,7 +94,7 @@ body {
 h2 {
     text-align: center;
     font-size: 60px;
-    color: rgb(226, 64, 64);
+    color: rgb(188, 61, 61);
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
 }
@@ -103,16 +105,17 @@ h2 {
     top: 50%;
     left: 50%;
     font-size: 50px;
-    color: red;
+    color: rgba(188, 61, 61);
 }
 
 .inner {
+    border-radius: 10px;
     display: inline-block;
-    border: 5px solid #dd4848;
+    border: 5px solid #f30000;
     padding: 20px;
     width: 80px;
     height: 80px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgb(255, 0, 0);
 }
 
 .inner .smalltext {
@@ -120,28 +123,28 @@ h2 {
 }
 
 .days {
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 2px 3px rgba(252, 39, 39, 0.6);
 }
 
 .hours {
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 2px 3px rgba(252, 39, 39, 0.6);
 }
 
 .minutes {
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 2px 3px rgba(252, 39, 39, 0.6);
 }
 
 .seconds {
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 4px 2px 3px rgba(252, 39, 39, 0.6);
 }
 
 .intro-text {
     font-family: 'Anonymous Pro', monospace;
     font-size: 16px;
     line-height: 2;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .smalltext {
-    color: rgba(0, 0, 0, 0.71);
+    color: rgba(0, 0, 0, 0.684);
 }
