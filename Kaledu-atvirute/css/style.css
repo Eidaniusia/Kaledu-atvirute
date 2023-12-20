@@ -89,7 +89,7 @@ body {
 h2 {
     text-align: center;
     font-size: 60px;
-    color: white;
+    color: rgb(226, 64, 64);
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
 }
@@ -114,7 +114,6 @@ h2 {
 
 .inner .smalltext {
     font-size: 20px;
-    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .days {
@@ -138,5 +137,12 @@ h2 {
     font-size: 16px;
     line-height: 2;
     color: black;
+<<<<<<< HEAD
     text-align: justify;
+=======
+}
+
+.smalltext {
+    color: rgba(0, 0, 0, 0.71);
+>>>>>>> 34249b1fcea5351fb1ee567921860c5f68abc699
 }
