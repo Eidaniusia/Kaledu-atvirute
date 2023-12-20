@@ -2,7 +2,7 @@
 /* Page
 ====================*/
 
-.wrapper {
+.container {
     width: 100%;
     max-width: 740px;
     padding: 20px;
@@ -137,12 +137,8 @@ h2 {
     font-size: 16px;
     line-height: 2;
     color: black;
-<<<<<<< HEAD
-    text-align: justify;
-=======
 }
 
 .smalltext {
     color: rgba(0, 0, 0, 0.71);
->>>>>>> 34249b1fcea5351fb1ee567921860c5f68abc699
 }
