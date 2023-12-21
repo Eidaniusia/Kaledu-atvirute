@@ -1,38 +1,50 @@
+/* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
-/* Page
-====================*/
 
 body {
     font-family: 'Righteous', cursive;
     color: white;
     text-align: center;
-
     margin: 0;
-
     background-color: #002936;
     background-image: url('https://i.imgur.com/BiSmXaq.png'), url('https://i.imgur.com/XHuy0NJ.png'), url('https://i.imgur.com/okpRxJU.png');
-
     -webkit-animation: snow 9s linear infinite;
     -moz-animation: snow 9s linear infinite;
     -ms-animation: snow 9s linear infinite;
     animation: snow 9s linear infinite;
 }
 
-/*====================*/
-
-/* Container
-====================*/
 .container {
     background-color: transparent;
-
     width: 100%;
     max-width: 740px;
     padding: 20px;
     margin: 0 auto;
-
 }
 
-/*====================*/
+.header-logo img {
+    width: 100%;
+    position: relative;
+    right: 500px;
+}
+
+.intro-text {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 28px;
+    line-height: 2;
+    color: rgb(190, 49, 49);
+}
+
+.egle1 img {
+    height: 100%;
+    width: 500px;
+}
+
+.egle1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 @-webkit-keyframes snow {
     0% {
@@ -94,6 +106,196 @@ body {
     }
 }
 
+/* Media queries for smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
+
+    .header-logo img,
+    .intro-text {
+        position: relative;
+        z-index: 2;
+        max-width: 100%;
+        right: 0;
+    }
+
+    .intro-text {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    .intro-text,
+    .header-logo img {
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-logo img {
+        margin-bottom: 50px;
+    }
+
+    .intro-text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .egle1 img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-align: center;
+
+    margin: 0;
+
+    background-color: #002936;
+    background-image: url('https://i.imgur.com/BiSmXaq.png'), url('https://i.imgur.com/XHuy0NJ.png'), url('https://i.imgur.com/okpRxJU.png');
+
+    -webkit-animation: snow 9s linear infinite;
+    -moz-animation: snow 9s linear infinite;
+    -ms-animation: snow 9s linear infinite;
+    animation: snow 9s linear infinite;
+}
+.container {
+    background-color: transparent;
+
+    width: 100%;
+    max-width: 740px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
 .header-logo img {
     width: 100%;
     position: relative;
@@ -102,13 +304,13 @@ body {
 
 .intro-text {
     font-family: 'Anonymous Pro', monospace;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 2;
     color: rgb(190, 49, 49);
 }
 
 .egle1 img {
-    height: 500px;
+    height: 100%;
     width: 500px;
 }
 
