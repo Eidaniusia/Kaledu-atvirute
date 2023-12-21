@@ -5,10 +5,13 @@
 .container {
     background-color: #ffffff;
     border: solid;
+    background-color: #ffffff;
+    border: solid;
     width: 100%;
     max-width: 740px;
     padding: 20px;
     margin: 0 auto;
+    box-shadow: rgb(255, 255, 255) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     box-shadow: rgb(255, 255, 255) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
@@ -91,9 +94,14 @@ body {
     width: 100%;
 }
 
+.header-logo img {
+    width: 100%;
+}
+
 h2 {
     text-align: center;
     font-size: 60px;
+    color: rgb(188, 61, 61);
     color: rgb(188, 61, 61);
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
@@ -106,15 +114,19 @@ h2 {
     left: 50%;
     font-size: 50px;
     color: rgba(188, 61, 61);
+    color: rgba(188, 61, 61);
 }
 
 .inner {
     border-radius: 10px;
+    border-radius: 10px;
     display: inline-block;
+    border: 5px solid #f30000;
     border: 5px solid #f30000;
     padding: 20px;
     width: 80px;
     height: 80px;
+    box-shadow: 5px 5px 5px rgb(255, 0, 0);
     box-shadow: 5px 5px 5px rgb(255, 0, 0);
 }
 
@@ -123,6 +135,7 @@ h2 {
     font-family: 'Anonymous Pro', monospace;
     font-size: 16px;
     line-height: 2;
+    color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
 }
 
